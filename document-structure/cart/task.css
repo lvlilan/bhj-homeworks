@@ -89,3 +89,28 @@ body {
 .product-shadow {
   position: absolute;
 }
+
+.cart__product-remove {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 18px;
+  height: 18px;
+  background: red;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.cart__product:hover .cart__product-remove {
+  opacity: 1;
+}
+
+.cart__product-remove:hover {
+  background: darkred;
+}
