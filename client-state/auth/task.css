@@ -45,3 +45,27 @@
   display: block;
   text-align: center;
 }
+
+.error-message {
+  color: #d32f2f;
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-family: Golos, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btn-logout {
+  background-color: #f44336;
+  margin-top: 15px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 200px;
+}
+
+.btn-logout:hover {
+  background-color: #d32f2f;
+}
